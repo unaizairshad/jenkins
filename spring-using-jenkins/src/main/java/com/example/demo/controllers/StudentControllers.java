@@ -11,7 +11,7 @@ public class StudentControllers {
 	
 	@GetMapping("/api/v1/students")
 	public List<String> getNames(){
-		return Arrays.asList("Ram","Shyam","Vikas","nike","unaiza");
+		return Arrays.asList("Ram","Shyam","Vikas","nike","unaiza","sana");
 	}
 
 }
